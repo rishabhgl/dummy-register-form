@@ -1,0 +1,7 @@
+.user-list{
+    display:flex;
+    flex-direction: column;
+    border: 2px solid brown;
+    background-color: brown;
+    padding: 10px;
+}
