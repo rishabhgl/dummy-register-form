@@ -16,29 +16,28 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: bolder;
     font-size: xx-large;
+    box-sizing: border-box;
+    width: 15%;
+}
+
+.field.invalid label{
+    color: red;
 }
 
 .field input{
     color: brown;
     margin: 10px;
     font-size: xx-large;
+    width: 85%;
     flex:1;
+    box-sizing: border-box;
+}
+
+.field.invalid input{
+    border: 5px solid red;
+    background-color: bisque;
 }
 
 .action{
     margin:20px;
-}
-
-.action button{
-    background-color: bisque;
-    color: brown;
-    font-size: large;
-    padding:10px;
-    border: 1px solid brown;
-    border-radius: 20px;
-}
-
-.action button:hover{
-    background-color: brown;
-    color: bisque;
 }

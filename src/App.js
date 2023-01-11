@@ -20,12 +20,8 @@ function App() {
 
   return (
     <div className= {styles.App}>
-      <Card>
         <UserForm onUserAdded = {userAddedHandler}/>
-      </Card>
-      <Card>
         <UserList users = {users} />
-      </Card>
     </div>
   );
 }
