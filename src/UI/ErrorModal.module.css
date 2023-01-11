@@ -37,6 +37,10 @@
     display: flex;
     justify-content: flex-end;
   }
+
+  .actions button{
+    float: right;
+  }
   
   @media (min-width: 768px) {
     .modal {
