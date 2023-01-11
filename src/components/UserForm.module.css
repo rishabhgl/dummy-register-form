@@ -1,0 +1,44 @@
+.user-form{
+    display:flex;
+    flex-direction: column;
+}
+
+.field{
+    margin:10px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.field label{
+    color: brown;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: bolder;
+    font-size: xx-large;
+}
+
+.field input{
+    color: brown;
+    margin: 10px;
+    font-size: xx-large;
+    flex:1;
+}
+
+.action{
+    margin:20px;
+}
+
+.action button{
+    background-color: bisque;
+    color: brown;
+    font-size: large;
+    padding:10px;
+    border: 1px solid brown;
+    border-radius: 20px;
+}
+
+.action button:hover{
+    background-color: brown;
+    color: bisque;
+}
